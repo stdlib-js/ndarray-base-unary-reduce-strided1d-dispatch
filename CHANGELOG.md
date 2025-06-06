@@ -17,6 +17,16 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`0ddb52b`](https://github.com/stdlib-js/stdlib/commit/0ddb52b2f0719c4dce9aa2e5a7fd1d1112dae6e5) - update require path
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
@@ -34,6 +44,7 @@
 
 <details>
 
+-   [`0ddb52b`](https://github.com/stdlib-js/stdlib/commit/0ddb52b2f0719c4dce9aa2e5a7fd1d1112dae6e5) - **fix:** update require path _(by Athan Reines)_
 -   [`dded8bb`](https://github.com/stdlib-js/stdlib/commit/dded8bb627d2634c2e244a9a74bc320511d66263) - **docs:** fix description _(by Athan Reines)_
 -   [`ee7d10d`](https://github.com/stdlib-js/stdlib/commit/ee7d10d4b989f11f10b355be7d5b7cad5d84e2a0) - **docs:** update note _(by Athan Reines)_
 -   [`6bf62ef`](https://github.com/stdlib-js/stdlib/commit/6bf62efb7fde322edbdf4e0b46a74473dbd62d60) - **refactor:** update error message _(by Athan Reines)_
