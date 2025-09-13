@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-11)
+## Unreleased (2025-09-13)
 
 <section class="features">
 
@@ -45,6 +45,7 @@
 
 <details>
 
+-   [`29c6ea7`](https://github.com/stdlib-js/stdlib/commit/29c6ea7cc602a60ec0351b12dad6508f84a822ff) - **docs:** fix comment _(by Athan Reines)_
 -   [`69e5523`](https://github.com/stdlib-js/stdlib/commit/69e5523ca6858e8488fe671f61b9a8c16e7044c7) - **fix:** use correct variable _(by Athan Reines)_
 -   [`0ddb52b`](https://github.com/stdlib-js/stdlib/commit/0ddb52b2f0719c4dce9aa2e5a7fd1d1112dae6e5) - **fix:** update require path _(by Athan Reines)_
 -   [`dded8bb`](https://github.com/stdlib-js/stdlib/commit/dded8bb627d2634c2e244a9a74bc320511d66263) - **docs:** fix description _(by Athan Reines)_
