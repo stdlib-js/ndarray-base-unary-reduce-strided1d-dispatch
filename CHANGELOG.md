@@ -45,6 +45,7 @@
 
 <details>
 
+-   [`725ba50`](https://github.com/stdlib-js/stdlib/commit/725ba500a8ac24922b4a764acd65a035a4993032) - **docs:** fix comment _(by Athan Reines)_
 -   [`29c6ea7`](https://github.com/stdlib-js/stdlib/commit/29c6ea7cc602a60ec0351b12dad6508f84a822ff) - **docs:** fix comment _(by Athan Reines)_
 -   [`69e5523`](https://github.com/stdlib-js/stdlib/commit/69e5523ca6858e8488fe671f61b9a8c16e7044c7) - **fix:** use correct variable _(by Athan Reines)_
 -   [`0ddb52b`](https://github.com/stdlib-js/stdlib/commit/0ddb52b2f0719c4dce9aa2e5a7fd1d1112dae6e5) - **fix:** update require path _(by Athan Reines)_
