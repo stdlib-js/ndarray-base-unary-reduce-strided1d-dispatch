@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-13)
+## Unreleased (2025-09-14)
 
 <section class="features">
 
@@ -45,6 +45,7 @@
 
 <details>
 
+-   [`01bc84c`](https://github.com/stdlib-js/stdlib/commit/01bc84cc252dbb2e46ff575e10ceb45a9a19cb92) - **refactor:** use array utility _(by Athan Reines)_
 -   [`626b52b`](https://github.com/stdlib-js/stdlib/commit/626b52bc5f30d90237d82055095814a5f6e75546) - **docs:** remove comma _(by Athan Reines)_
 -   [`794dcb3`](https://github.com/stdlib-js/stdlib/commit/794dcb39a1a97b958b56f2a56ada615344a0d993) - **docs:** fix examples _(by Athan Reines)_
 -   [`725ba50`](https://github.com/stdlib-js/stdlib/commit/725ba500a8ac24922b4a764acd65a035a4993032) - **docs:** fix comment _(by Athan Reines)_
