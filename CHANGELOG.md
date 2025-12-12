@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-14)
+## Unreleased (2025-12-12)
 
 <section class="features">
 
@@ -21,6 +21,7 @@
 
 ### Bug Fixes
 
+-   [`01ab290`](https://github.com/stdlib-js/stdlib/commit/01ab29036205f4a0507133c1a4a7fd429bb7bd9e) - rename import in `ndarray/base/unary-strided1d-dispatch` to resolve conflict [(#9010)](https://github.com/stdlib-js/stdlib/pull/9010)
 -   [`69e5523`](https://github.com/stdlib-js/stdlib/commit/69e5523ca6858e8488fe671f61b9a8c16e7044c7) - use correct variable
 -   [`0ddb52b`](https://github.com/stdlib-js/stdlib/commit/0ddb52b2f0719c4dce9aa2e5a7fd1d1112dae6e5) - update require path
 
@@ -45,6 +46,8 @@
 
 <details>
 
+-   [`01ab290`](https://github.com/stdlib-js/stdlib/commit/01ab29036205f4a0507133c1a4a7fd429bb7bd9e) - **fix:** rename import in `ndarray/base/unary-strided1d-dispatch` to resolve conflict [(#9010)](https://github.com/stdlib-js/stdlib/pull/9010) _(by Muhammad Haris)_
+-   [`c520b5a`](https://github.com/stdlib-js/stdlib/commit/c520b5a0cae0c85e946f8a646e7cc8c01b3b5673) - **docs:** address TSDoc lint errors and add doctest aliases _(by Philipp Burckhardt)_
 -   [`5dde2ff`](https://github.com/stdlib-js/stdlib/commit/5dde2ff115443aa143dd19022e5593e022401920) - **refactor:** use extended BLAS utility _(by Athan Reines)_
 -   [`5396232`](https://github.com/stdlib-js/stdlib/commit/539623214add7405c45c70f16ef7ab001f5dc0e0) - **refactor:** use base utility _(by Athan Reines)_
 -   [`01bc84c`](https://github.com/stdlib-js/stdlib/commit/01bc84cc252dbb2e46ff575e10ceb45a9a19cb92) - **refactor:** use array utility _(by Athan Reines)_
@@ -72,9 +75,11 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Muhammad Haris
+-   Philipp Burckhardt
 
 </section>
 
