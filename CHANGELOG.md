@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-12)
+## Unreleased (2025-12-26)
 
 <section class="features">
 
@@ -46,6 +46,7 @@
 
 <details>
 
+-   [`daf2cc8`](https://github.com/stdlib-js/stdlib/commit/daf2cc847c77117f4c5ae4e5e99ae224bb592edc) - **refactor:** add writable parameter to `ndarray/base/spread-dimensions` [(#9370)](https://github.com/stdlib-js/stdlib/pull/9370) _(by Muhammad Haris, Athan Reines)_
 -   [`01ab290`](https://github.com/stdlib-js/stdlib/commit/01ab29036205f4a0507133c1a4a7fd429bb7bd9e) - **fix:** rename import in `ndarray/base/unary-strided1d-dispatch` to resolve conflict [(#9010)](https://github.com/stdlib-js/stdlib/pull/9010) _(by Muhammad Haris)_
 -   [`c520b5a`](https://github.com/stdlib-js/stdlib/commit/c520b5a0cae0c85e946f8a646e7cc8c01b3b5673) - **docs:** address TSDoc lint errors and add doctest aliases _(by Philipp Burckhardt)_
 -   [`5dde2ff`](https://github.com/stdlib-js/stdlib/commit/5dde2ff115443aa143dd19022e5593e022401920) - **refactor:** use extended BLAS utility _(by Athan Reines)_
