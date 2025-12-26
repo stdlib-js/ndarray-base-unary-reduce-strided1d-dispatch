@@ -35,14 +35,32 @@ limitations under the License.
 
 > Constructor for performing a reduction on an input ndarray.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/ndarray-base-unary-reduce-strided1d-dispatch
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import UnaryStrided1dDispatch from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-strided1d-dispatch@deno/mod.js';
+var UnaryStrided1dDispatch = require( '@stdlib/ndarray-base-unary-reduce-strided1d-dispatch' );
 ```
 
 #### UnaryStrided1dDispatch( table, idtypes, odtypes, policies )
@@ -50,7 +68,7 @@ import UnaryStrided1dDispatch from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarra
 Constructor for performing a reduction on an input ndarray.
 
 ```javascript
-import base from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-max@deno/mod.js';
+var base = require( '@stdlib/stats-base-ndarray-max' );
 
 var table = {
     'default': base
@@ -90,8 +108,8 @@ The constructor has the following parameters:
 Performs a reduction on a provided input ndarray.
 
 ```javascript
-import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ctor@deno/mod.js';
-import base from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-max@deno/mod.js';
+var ndarray = require( '@stdlib/ndarray-base-ctor' );
+var base = require( '@stdlib/stats-base-ndarray-max' );
 
 var table = {
     'default': base
@@ -130,9 +148,9 @@ The method accepts the following options:
 By default, the method returns an ndarray having a data type determined by the output data type policy. To override the default behavior, set the `dtype` option.
 
 ```javascript
-import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ctor@deno/mod.js';
-import base from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-max@deno/mod.js';
-import getDType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtype@deno/mod.js';
+var ndarray = require( '@stdlib/ndarray-base-ctor' );
+var base = require( '@stdlib/stats-base-ndarray-max' );
+var getDType = require( '@stdlib/ndarray-dtype' );
 
 var table = {
     'default': base
@@ -163,9 +181,9 @@ var dt = getDType( y );
 Performs a reduction on a provided input ndarray and assigns results to a provided output ndarray.
 
 ```javascript
-import base from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-max@deno/mod.js';
-import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtypes@deno/mod.js';
-import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ctor@deno/mod.js';
+var base = require( '@stdlib/stats-base-ndarray-max' );
+var dtypes = require( '@stdlib/ndarray-dtypes' );
+var ndarray = require( '@stdlib/ndarray-base-ctor' );
 
 var idt = dtypes( 'real_and_generic' );
 var odt = idt;
@@ -237,15 +255,15 @@ The method accepts the following options:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import dmax from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-dmax@deno/mod.js';
-import smax from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-smax@deno/mod.js';
-import base from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-max@deno/mod.js';
-import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
-import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtypes@deno/mod.js';
-import dtype from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtype@deno/mod.js';
-import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
-import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@deno/mod.js';
-import UnaryStrided1dDispatch from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-strided1d-dispatch@deno/mod.js';
+var dmax = require( '@stdlib/stats-base-ndarray-dmax' );
+var smax = require( '@stdlib/stats-base-ndarray-smax' );
+var base = require( '@stdlib/stats-base-ndarray-max' );
+var uniform = require( '@stdlib/random-array-uniform' );
+var dtypes = require( '@stdlib/ndarray-dtypes' );
+var dtype = require( '@stdlib/ndarray-dtype' );
+var ndarray2array = require( '@stdlib/ndarray-to-array' );
+var ndarray = require( '@stdlib/ndarray-ctor' );
+var UnaryStrided1dDispatch = require( '@stdlib/ndarray-base-unary-reduce-strided1d-dispatch' );
 
 // Define the supported input and output data types:
 var idt = dtypes( 'real_and_generic' );
@@ -315,7 +333,7 @@ console.log( ndarray2array( y ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -324,11 +342,6 @@ For more information on the project, filing bug reports and feature requests, an
 [![Chat][chat-image]][chat-url]
 
 ---
-
-## License
-
-See [LICENSE][stdlib-license].
-
 
 ## Copyright
 
@@ -358,8 +371,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -376,11 +389,9 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [esm-readme]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-dispatch/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-dispatch/blob/main/branches.md
 
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-base-unary-reduce-strided1d-dispatch/main/LICENSE
+[@stdlib/ndarray/output-dtype-policies]: https://github.com/stdlib-js/ndarray-output-dtype-policies
 
-[@stdlib/ndarray/output-dtype-policies]: https://github.com/stdlib-js/ndarray-output-dtype-policies/tree/deno
-
-[@stdlib/ndarray/input-casting-policies]: https://github.com/stdlib-js/ndarray-input-casting-policies/tree/deno
+[@stdlib/ndarray/input-casting-policies]: https://github.com/stdlib-js/ndarray-input-casting-policies
 
 </section>
 
