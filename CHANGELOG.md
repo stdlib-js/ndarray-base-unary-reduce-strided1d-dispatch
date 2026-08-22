@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-20)
+## Unreleased (2026-08-22)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`fdbc822`](https://github.com/stdlib-js/stdlib/commit/fdbc82241f30438af95d53f451c1c4cd4523859f) - **chore:** remove unnecessary `format` calls [(#14520)](https://github.com/stdlib-js/stdlib/pull/14520) _(by Philipp Burckhardt)_
 -   [`9330de7`](https://github.com/stdlib-js/stdlib/commit/9330de700a97e4c3cdd6c0e4558f26e1e757178f) - **bench:** refactor to use string interpolation in `ndarray/base` [(#11430)](https://github.com/stdlib-js/stdlib/pull/11430) _(by Karan Anand, Athan Reines)_
 -   [`26f1d6e`](https://github.com/stdlib-js/stdlib/commit/26f1d6e9227859c18102b50a0021ccf6d1963a1f) - **docs:** update example _(by Athan Reines)_
 -   [`408c8be`](https://github.com/stdlib-js/stdlib/commit/408c8be00cf7c2139a5ff2dbab966db756d95944) - **refactor:** add support for dtype instances and reduce memory requirements _(by Athan Reines)_
@@ -26,10 +27,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Karan Anand
+-   Philipp Burckhardt
 
 </section>
 
